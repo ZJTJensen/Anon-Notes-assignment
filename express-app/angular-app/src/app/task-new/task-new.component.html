@@ -1,0 +1,7 @@
+<fieldset>
+  <legend>Task New Component</legend>
+  <form (submit)="onSubmit()">
+    <input type="text" name="task.description" [(ngModel)]="task.description" placeholder="Note Text...">
+    <input type="submit" value="Add Note">
+  </form>
+</fieldset>

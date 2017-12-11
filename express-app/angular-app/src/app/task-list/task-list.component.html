@@ -1,0 +1,13 @@
+<fieldset >
+  <legend>Task List Component</legend>
+  <ul style= "width: auto; height: 300px; overflow: scroll;">
+    
+    <li *ngFor="let task of tasks.reverse()">
+        <fieldset>
+      <p>Created on: {{ task.createdAt }}</p>
+      <p>{{ task.description }}</p>
+    </fieldset>
+    </li>
+  
+  </ul>
+</fieldset>
